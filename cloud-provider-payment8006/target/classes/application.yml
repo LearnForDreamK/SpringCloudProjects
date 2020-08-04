@@ -1,0 +1,19 @@
+server:
+  port: 8006
+
+#注意 consul部署在linux的话，注册服务可能会check失败
+#部署在linux服务器的另一种解决方法
+#GET http://{微服务地址}/actuator/health: dial tcp: look up {主机的名字} on 100.100.2.136:53:
+#这时候在Consul所在的服务器上配置host映射，将报错中的{主机的名字}映射到你认为正确的IP上
+
+spring:
+  application:
+    name: cloud-provider-paymentofconsul
+  cloud:
+    consul:
+      host: 120.79.187.164
+      port: 8501
+      discovery:
+        service-name: ${spring.application.name}
+        heartbeat:
+          enabled: false

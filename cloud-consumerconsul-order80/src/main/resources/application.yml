@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+
+spring:
+  application:
+    name: cloud-consumer-paymentofconsul
+  cloud:
+    consul:
+      host: 120.79.187.164
+      port: 8501
+      discovery:
+        service-name: ${spring.application.name}
