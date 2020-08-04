@@ -1,84 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56f24340-2814-4b10-9308-2a092f3d91c2" name="Default Changelist" comment="7001 7002 为eureka集群      8001 8002为服务提供者集群&#10;80为消费者 通过eureka调用服务者">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/READEME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/huashuikun/api/entity/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/huashuikun/api/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/huashuikun/api/entity/CommonResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/huashuikun/api/entity/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/Order80Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/META-INF/cloud-consumer-order80.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/Order80Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/config/ApplicationContextConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/controller/ConsumerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/huashuikun/eureka/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/META-INF/cloud-eureka-server7001.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/com/huashuikun/eureka/EurekaMain7001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huashuikun/springcloud/Controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huashuikun/springcloud/PaymentMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huashuikun/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huashuikun/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huashuikun/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huashuikun/springcloud/Controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huashuikun/springcloud/PaymentMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huashuikun/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huashuikun/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huashuikun/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/huashuikun/springcloud/Controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/huashuikun/springcloud/PaymentMain8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/huashuikun/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/huashuikun/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/huashuikun/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/META-INF/cloud-provider-payment8002.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/huashuikun/springcloud/Controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/huashuikun/springcloud/PaymentMain8002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/huashuikun/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/huashuikun/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/huashuikun/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.huashuikun.server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.huashuikun.server7002/src/main/java/com/huashuikun/eureka/EurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.huashuikun.server7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.huashuikun.server7002/target/classes/META-INF/com.huashuikun.server7002.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.huashuikun.server7002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.huashuikun.server7002/target/classes/com/huashuikun/eureka/EurekaMain7002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud.iml" afterDir="false" />
+    <list default="true" id="56f24340-2814-4b10-9308-2a092f3d91c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/huashuikun/cloud/ConsumerZkOrder80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/huashuikun/cloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/huashuikun/cloud/controller/OrderZkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/huashuikun/cloud/PaymentMain8003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/huashuikun/cloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,17 +65,22 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1fTrJGfOQvoF4SJ6vNTct78UPbs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -150,6 +96,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huashuikun.cloud" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\h'p\Desktop\IDEAPROJECT\springcloud\cloud-provider-payment8002\src\main\resources" />
       <recent name="C:\Users\h'p\Desktop\IDEAPROJECT\springcloud\cloud-provider-payment8002\src\main\java" />
@@ -164,29 +113,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain8002">
-    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server7001" />
+  <component name="RunManager" selected="Spring Boot.ConsumerZkOrder80">
+    <configuration name="ConsumerZkOrder80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumerzk-order80" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huashuikun.eureka.*" />
+          <option name="PATTERN" value="com.huashuikun.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.eureka.EurekaMain7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="com.huashuikun.server7002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huashuikun.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.eureka.EurekaMain7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.cloud.ConsumerZkOrder80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,20 +166,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huashuikun.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.cloud.PaymentMain8003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Order80Main" />
-      <item itemvalue="Spring Boot.EurekaMain7001" />
-      <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Spring Boot.PaymentMain8001" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
+      <item itemvalue="Spring Boot.PaymentMain8003" />
+      <item itemvalue="Spring Boot.ConsumerZkOrder80" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerZkOrder80" />
+        <item itemvalue="Spring Boot.PaymentMain8003" />
         <item itemvalue="Spring Boot.Order80Main" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
-        <item itemvalue="Spring Boot.EurekaMain7002" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
       </list>
     </recent_temporary>
   </component>
@@ -256,18 +205,18 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@44e91204" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@15e9b9b6" type="d2cb1801:ServiceModel$ContributorNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@44e91204" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@15e9b9b6" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@44e91204" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@15e9b9b6" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -292,8 +241,18 @@
       <workItem from="1596285731548" duration="3433000" />
       <workItem from="1596357692938" duration="2652000" />
       <workItem from="1596422433133" duration="5811000" />
-      <workItem from="1596446681882" duration="2146000" />
+      <workItem from="1596446681882" duration="3543000" />
+      <workItem from="1596514030065" duration="906000" />
+      <workItem from="1596527547236" duration="1189000" />
     </task>
+    <task id="LOCAL-00001" summary="7001 7002 为eureka集群      8001 8002为服务提供者集群&#10;80为消费者 通过eureka调用服务者">
+      <created>1596448880532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596448880532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,10 +263,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="7001 7002 为eureka集群      8001 8002为服务提供者集群&#10;80为消费者 通过eureka调用服务者" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="379" key="#Project_Structure" timestamp="1596425553734">
+    <state x="872" y="379" key="#Notifications" timestamp="1596448982163">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="379" key="#Project_Structure/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596425553734" />
+    <state x="872" y="379" key="#Notifications/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448982163" />
+    <state x="872" y="379" key="#Project_Structure" timestamp="1596528434456">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="872" y="379" key="#Project_Structure/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528434456" />
     <state x="803" y="430" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596362117986">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -316,10 +279,10 @@
       <screen x="2560" y="360" width="1920" height="1080" />
     </state>
     <state x="3325" y="610" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596287213872" />
-    <state x="717" y="311" key="CommitChangelistDialog2" timestamp="1596448766044">
+    <state x="717" y="311" key="CommitChangelistDialog2" timestamp="1596448879330">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="717" y="311" key="CommitChangelistDialog2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448766044" />
+    <state x="717" y="311" key="CommitChangelistDialog2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448879330" />
     <state x="980" y="375" key="FileChooserDialogImpl" timestamp="1596448181141">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -333,59 +296,63 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1143" y="611" width="273" height="291" key="Github.ShareDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448019797" />
-    <state width="1703" height="621" key="GridCell.Tab.0.bottom" timestamp="1596447836907">
+    <state width="1703" height="462" key="GridCell.Tab.0.bottom" timestamp="1596528820689">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836907" />
+    <state width="1703" height="462" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820689" />
     <state width="1877" height="451" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="1703" height="621" key="GridCell.Tab.0.center" timestamp="1596447836907">
+    <state width="1703" height="462" key="GridCell.Tab.0.center" timestamp="1596528820689">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836907" />
+    <state width="1703" height="462" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820689" />
     <state width="1877" height="451" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="1703" height="621" key="GridCell.Tab.0.left" timestamp="1596447836907">
+    <state width="1703" height="462" key="GridCell.Tab.0.left" timestamp="1596528820688">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836907" />
+    <state width="1703" height="462" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820688" />
     <state width="1877" height="451" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="1703" height="621" key="GridCell.Tab.0.right" timestamp="1596447836907">
+    <state width="1703" height="462" key="GridCell.Tab.0.right" timestamp="1596528820689">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836907" />
+    <state width="1703" height="462" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820689" />
     <state width="1877" height="451" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="1703" height="621" key="GridCell.Tab.1.bottom" timestamp="1596447836908">
+    <state width="1703" height="462" key="GridCell.Tab.1.bottom" timestamp="1596528820689">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836908" />
+    <state width="1703" height="462" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820689" />
     <state width="1877" height="451" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="1703" height="621" key="GridCell.Tab.1.center" timestamp="1596447836908">
+    <state width="1703" height="462" key="GridCell.Tab.1.center" timestamp="1596528820689">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836908" />
+    <state width="1703" height="462" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820689" />
     <state width="1877" height="451" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="1703" height="621" key="GridCell.Tab.1.left" timestamp="1596447836907">
+    <state width="1703" height="462" key="GridCell.Tab.1.left" timestamp="1596528820689">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836907" />
+    <state width="1703" height="462" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820689" />
     <state width="1877" height="451" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="1703" height="621" key="GridCell.Tab.1.right" timestamp="1596447836908">
+    <state width="1703" height="462" key="GridCell.Tab.1.right" timestamp="1596528820689">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1703" height="621" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447836908" />
+    <state width="1703" height="462" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528820689" />
     <state width="1877" height="451" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
     <state x="781" y="362" key="SettingsEditor" timestamp="1596448041128">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="362" key="SettingsEditor/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448041128" />
     <state x="3146" y="632" key="SettingsEditor/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596358159305" />
-    <state x="960" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1596446719669">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1596448958590">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="960" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596446719669" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448958590" />
+    <state x="960" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1596527547067">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="960" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596527547067" />
     <state x="3280" y="768" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596357696411" />
-    <state x="654" y="415" key="new project wizard" timestamp="1596447080003">
+    <state x="654" y="415" key="new project wizard" timestamp="1596528343846">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="654" y="415" key="new project wizard/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596447080003" />
+    <state x="654" y="415" key="new project wizard/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596528343846" />
   </component>
 </project>

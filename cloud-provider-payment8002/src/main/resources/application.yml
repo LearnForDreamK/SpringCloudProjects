@@ -23,3 +23,6 @@ eureka:
     service-url:
       #将服务注册到eureka集群中
       defaultZone: http://www.eureka7001.com:7001/eureka/,http://www.eureka7002.com:7002/eureka/
+  instance:
+    instance-id: huashuikun.club.service8002 #实例名称
+    prefer-ip-address: true  #是否显示ip地址 默认false

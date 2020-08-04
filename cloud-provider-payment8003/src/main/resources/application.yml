@@ -1,0 +1,11 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    #提供的服务名称
+    name: cloud-provider-paymentofzookeeper
+  cloud:
+    zookeeper:
+      #服务的ip和端口号
+      connect-string: 120.79.187.164:2181

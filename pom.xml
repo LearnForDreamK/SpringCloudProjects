@@ -14,6 +14,8 @@
         <module>cloud-api-commons</module>
         <module>com.huashuikun.server7002</module>
         <module>cloud-provider-payment8002</module>
+        <module>cloud-provider-payment8003</module>
+        <module>cloud-consumerzk-order80</module>
     </modules>
     <packaging>pom</packaging>
   <name>Maven</name>
