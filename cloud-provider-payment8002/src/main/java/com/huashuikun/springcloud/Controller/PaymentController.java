@@ -47,5 +47,11 @@ public class PaymentController {
 
     }
 
+    //返回端口号 用于测试的方法
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
+
 
 }
