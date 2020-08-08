@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56f24340-2814-4b10-9308-2a092f3d91c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/loadbalanced/LoadBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/loadbalanced/LoadBalancedImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/mybalancedrule/MyBalancedRule.java" afterDir="false" />
+    <list default="true" id="56f24340-2814-4b10-9308-2a092f3d91c2" name="Default Changelist" comment="修改了最开始的order80 和 8001 8002 &#10;1.在order80中更换了默认的负载均衡（轮询改为随机）算法&#10;2.关闭了默认的负载均衡 手动实现了负载均衡的算法（轮询）">
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/huashuikun/cloud/OrderFeignMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/huashuikun/cloud/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/huashuikun/cloud/controller/OrderFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/huashuikun/cloud/serrvice/PaymentFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/huashuikun/cloud/OrderFeignMain80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/huashuikun/cloud/controller/OrderFeignController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/huashuikun/cloud/serrvice/PaymentFeignService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/Order80Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/Order80Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/huashuikun/cloud/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/Order80Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/Order80Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/config/ApplicationContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/huashuikun/cloud/controller/ConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huashuikun/springcloud/Controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huashuikun/springcloud/Controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huashuikun/springcloud/Controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huashuikun/springcloud/Controller/PaymentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/huashuikun/springcloud/Controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/huashuikun/springcloud/Controller/PaymentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/huashuikun/springcloud/Controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/huashuikun/springcloud/Controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +119,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Order80Main">
+  <component name="RunManager" selected="Spring Boot.OrderFeignMain80">
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server7001" />
       <extension name="coverage">
@@ -140,15 +146,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Order80Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-order80" />
+    <configuration name="OrderFeignMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-order80" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.huashuikun.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.cloud.Order80Main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.cloud.OrderFeignMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,17 +188,17 @@
     <list>
       <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
-      <item itemvalue="Spring Boot.Order80Main" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
       <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.OrderFeignMain80" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Order80Main" />
+        <item itemvalue="Spring Boot.OrderFeignMain80" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
-        <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
       </list>
     </recent_temporary>
   </component>
@@ -205,16 +211,16 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@46454f8c" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@5756cc08" type="d2cb1801:ServiceModel$ContributorNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@46454f8c" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@5756cc08" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@46454f8c" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@5756cc08" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
@@ -244,7 +250,8 @@
       <workItem from="1596446681882" duration="3543000" />
       <workItem from="1596514030065" duration="906000" />
       <workItem from="1596527547236" duration="4080000" />
-      <workItem from="1596633123425" duration="4159000" />
+      <workItem from="1596633123425" duration="4380000" />
+      <workItem from="1596861726007" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="7001 7002 为eureka集群      8001 8002为服务提供者集群&#10;80为消费者 通过eureka调用服务者">
       <created>1596448880532</created>
@@ -267,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596531680955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改了最开始的order80 和 8001 8002 &#10;1.在order80中更换了默认的负载均衡（轮询改为随机）算法&#10;2.关闭了默认的负载均衡 手动实现了负载均衡的算法（轮询）">
+      <created>1596637435205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596637435205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,13 +292,14 @@
     <MESSAGE value="7001 7002 为eureka集群      8001 8002为服务提供者集群&#10;80为消费者 通过eureka调用服务者" />
     <MESSAGE value="增加了zookeeper 和 springcloud整合的项目&#10;cloud-consumerzk-order80 和 cloud-provider-payment8003&#10;8003 和80  注册进linux中的zookeeper ,80通过zookeeper调用了8003的方法" />
     <MESSAGE value="增加了consul 和 springcloud整合的项目&#10;cloud-consumerconsul-order80 和 cloud-provider-payment8006&#10;8006 和80  注册进linux中的consul" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了consul 和 springcloud整合的项目&#10;cloud-consumerconsul-order80 和 cloud-provider-payment8006&#10;8006 和80  注册进linux中的consul" />
+    <MESSAGE value="修改了最开始的order80 和 8001 8002 &#10;1.在order80中更换了默认的负载均衡（轮询改为随机）算法&#10;2.关闭了默认的负载均衡 手动实现了负载均衡的算法（轮询）" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了最开始的order80 和 8001 8002 &#10;1.在order80中更换了默认的负载均衡（轮询改为随机）算法&#10;2.关闭了默认的负载均衡 手动实现了负载均衡的算法（轮询）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="379" key="#Notifications" timestamp="1596448982163">
+    <state x="872" y="379" key="#Notifications" timestamp="1596864038382">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="379" key="#Notifications/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448982163" />
+    <state x="872" y="379" key="#Notifications/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596864038382" />
     <state x="872" y="379" key="#Project_Structure" timestamp="1596529800739">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -298,10 +313,10 @@
     </state>
     <state x="1020" y="333" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596635648501" />
     <state x="3325" y="610" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596287213872" />
-    <state x="717" y="311" key="CommitChangelistDialog2" timestamp="1596531680212">
+    <state x="717" y="311" key="CommitChangelistDialog2" timestamp="1596637452337">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="717" y="311" key="CommitChangelistDialog2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596531680212" />
+    <state x="717" y="311" key="CommitChangelistDialog2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637452337" />
     <state x="980" y="375" key="FileChooserDialogImpl" timestamp="1596448181141">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -315,71 +330,75 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1143" y="611" width="273" height="291" key="Github.ShareDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448019797" />
-    <state width="2159" height="194" key="GridCell.Tab.0.bottom" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.0.bottom" timestamp="1596865278090">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278090" />
     <state width="1877" height="451" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="194" key="GridCell.Tab.0.center" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.0.center" timestamp="1596865278089">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278089" />
     <state width="1877" height="451" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="194" key="GridCell.Tab.0.left" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.0.left" timestamp="1596865278089">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278089" />
     <state width="1877" height="451" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="194" key="GridCell.Tab.0.right" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.0.right" timestamp="1596865278089">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278089" />
     <state width="1877" height="451" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="194" key="GridCell.Tab.1.bottom" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.1.bottom" timestamp="1596865278090">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278090" />
     <state width="1877" height="451" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="194" key="GridCell.Tab.1.center" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.1.center" timestamp="1596865278090">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278090" />
     <state width="1877" height="451" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="194" key="GridCell.Tab.1.left" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.1.left" timestamp="1596865278090">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278090" />
     <state width="1877" height="451" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="194" key="GridCell.Tab.1.right" timestamp="1596637307030">
+    <state width="2159" height="428" key="GridCell.Tab.1.right" timestamp="1596865278090">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="194" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637307030" />
+    <state width="2159" height="428" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865278090" />
     <state width="1877" height="451" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
     <state x="781" y="362" key="SettingsEditor" timestamp="1596448041128">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="362" key="SettingsEditor/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448041128" />
     <state x="3146" y="632" key="SettingsEditor/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596358159305" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1596531687030">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1596637470133">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596531687030" />
-    <state x="960" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1596633123449">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596637470133" />
+    <state x="960" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1596861869114">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="960" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596633123449" />
+    <state x="960" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596861869113" />
     <state x="3280" y="768" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596357696411" />
     <state x="1072" y="637" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596633359377">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1072" y="637" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596633359377" />
-    <state x="654" y="415" key="new project wizard" timestamp="1596529525737">
+    <state x="941" y="511" key="git4idea.merge.GitPullDialog" timestamp="1596861908127">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="654" y="415" key="new project wizard/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596529525737" />
-    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1596634909827">
+    <state x="941" y="511" key="git4idea.merge.GitPullDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596861908127" />
+    <state x="654" y="415" key="new project wizard" timestamp="1596865810137">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596634909827" />
+    <state x="654" y="415" key="new project wizard/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596865810137" />
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1596863648744">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596863648744" />
   </component>
 </project>

@@ -1,0 +1,22 @@
+server:
+  port: 80
+eureka:
+  client:
+    #将自己注册进服务中心
+    register-with-eureka: true
+    #去服务中心获取其他服务地址
+    fetch-registry: true
+    service-url:
+      defaultZone: http://www.eureka7001.com:7001/eureka, http://www.eureka7002.com:7002/eureka
+
+
+#设置feign客户端超时时间（OpenFeign默认支持ribbon）
+ribbon:
+  #指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的实际
+  ReadTimeout: 5000
+  #指的是建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+
+logging:
+  level:
+    com.huashuikun.cloud.serrvice.PaymentFeignService: debug

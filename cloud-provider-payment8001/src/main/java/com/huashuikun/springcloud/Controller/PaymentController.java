@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @Slf4j
@@ -35,7 +36,7 @@ public class PaymentController {
     }
 
     @GetMapping(value="/payment/get/{id}")
-    public CommonResult insert(@PathVariable("id") Long id){
+    public CommonResult getPatmentById(@PathVariable("id") Long id){
         Payment py=paymentService.takePaymentById(id);
         log.info("插入结果 ： "+py);
 
@@ -51,6 +52,18 @@ public class PaymentController {
     @GetMapping(value = "/payment/lb")
     public String getPaymentLB(){
         return serverPort;
+    }
+
+
+    @GetMapping(value = "/payment/timeout")
+    public String timeoutMethod(){
+
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return "当前服务器端口： "+serverPort;
     }
 
 }
