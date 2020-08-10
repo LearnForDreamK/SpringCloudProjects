@@ -55,3 +55,18 @@ springcloud实例练习项目
 
 3.在访问http://localhost:9001/hystrix/ 监控8001的过程中，页面一直处于loading的空白状态，在网上查询发现，需要在访问和HystrixComment注解相关
 的服务的时候，这个页面才会加载出来！，此时访问http://localhost:8001/payment/circuit/1  画面就出来了
+
+### **项目名**：cloud-gateway-gateway9527
+
+1.网关需要在所有微服务启动后再启动，不然后开启的微服务网关的负载均衡无法起作用（eureka的问题）
+
+2.网关启动后关闭一个微服务，eureka的安全模式会导致轮询发生异常
+
+
+### **项目名**：cloud-config-center3344
+
+1.启动项目报错，通过错误信息发现是配置文件中的url: ssh地址出现问题，我的电脑已经配置了公匙和私匙，但是还是报错，将ssh改为https链接后错误消失
+
+### **项目名**：cloud-config-client-3355
+
+1.cmd中发送请求  ``` curl -X POST "http://localhost:3355/actuator/refresh"中  ``` -x 必须大写 -X
