@@ -1,5 +1,5 @@
 server:
-  port: 3355
+  port: 3366
 
 spring:
   application:
@@ -7,10 +7,10 @@ spring:
   cloud:
     config:
       label: master
-      #配置文件名    格式/label(分支)/{配置文件名}-{属性（dev test ....）}.yml
       name: application
       profile: dev
       uri: http://localhost:3344
+
   rabbitmq:
     host: 120.79.187.164
     port: 5672
@@ -21,8 +21,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://www.eureka7001.com:7001/eureka
-
-#暴露监控端口
 management:
   endpoints:
     web:

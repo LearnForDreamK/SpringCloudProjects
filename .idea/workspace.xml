@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56f24340-2814-4b10-9308-2a092f3d91c2" name="Default Changelist" comment="建立的新项目 cloud-gateway-gateway9527&#10;测试了网关spring cloud gateway的使用&#10;测试了反向代理  负载均衡  路由中的断言的使用&#10;自定义全局过滤器的使用（自带的过滤器在yml文件中配置即可）">
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/cloud-config-center-3344.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/huashuikun/cloud/ConfigCenterMain3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/cloud-config-client-3355.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/huashuikun/cloud/ConfigClientMain3355.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/huashuikun/cloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/com/huashuikun/cloud/OrderHystrixMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/com/huashuikun/cloud/controller/HystrixController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/com/huashuikun/cloud/service/PaymentHystrixService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/huashuikun/cloud/config/FeignConfig.class" afterDir="false" />
+    <list default="true" id="56f24340-2814-4b10-9308-2a092f3d91c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/com/huashuikun/cloud/ConfigCenterMain3344.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/com/huashuikun/cloud/controller/ConfigClientController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/cloud-config-client-3366.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/huashuikun/cloud/ConfigClientMain3366.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/huashuikun/cloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/com/huashuikun/cloud/ConfigClientMain3366.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/com/huashuikun/cloud/controller/ConfigClientController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center-3344" />
       <extension name="coverage">
@@ -142,6 +143,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.cloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3366" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huashuikun.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.cloud.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,33 +186,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huashuikun.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huashuikun.springcloud.PaymentMain8002" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.GateWayMain9527" />
-      <item itemvalue="Spring Boot.PaymentMain8002" />
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.ConfigClientMain3366" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientMain3366" />
         <item itemvalue="Spring Boot.ConfigClientMain3355" />
         <item itemvalue="Spring Boot.ConfigCenterMain3344" />
-        <item itemvalue="Spring Boot.GateWayMain9527" />
-        <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.GateWayMain9527" />
       </list>
     </recent_temporary>
   </component>
@@ -211,16 +212,16 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@11b9c83" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@51c8f0fb" type="d2cb1801:ServiceModel$ContributorNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@11b9c83" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@51c8f0fb" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@11b9c83" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@51c8f0fb" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
@@ -252,7 +253,8 @@
       <workItem from="1596527547236" duration="4080000" />
       <workItem from="1596633123425" duration="4380000" />
       <workItem from="1596861726007" duration="8819000" />
-      <workItem from="1597052975507" duration="8682000" />
+      <workItem from="1597052975507" duration="8801000" />
+      <workItem from="1597211223797" duration="3107000" />
     </task>
     <task id="LOCAL-00001" summary="7001 7002 为eureka集群      8001 8002为服务提供者集群&#10;80为消费者 通过eureka调用服务者">
       <created>1596448880532</created>
@@ -303,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597058438945</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="建立的新项目 cloud-config-center-3344/ cloud-config-client-3355&#10;&#10;测试了spring cloud config 的使用&#10;配置中心3355  配置客户端3344">
+      <created>1597062472100</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597062472100</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +327,8 @@
     <MESSAGE value="建立了新项目feign-order80 &#10;测试了openfeign的基本功能&#10;在初始8001 8002里新加了测试超时的方法" />
     <MESSAGE value="建立的新项目 feign-hystrix-order80 hystrix-payment8001 dashboard9001&#10;测试了熔断机制的使用（通过异常触发服务降级 ，多次异常触发熔断）&#10;用hystrix的监控页面监控服务的访问情况" />
     <MESSAGE value="建立的新项目 cloud-gateway-gateway9527&#10;测试了网关spring cloud gateway的使用&#10;测试了反向代理  负载均衡  路由中的断言的使用&#10;自定义全局过滤器的使用（自带的过滤器在yml文件中配置即可）" />
-    <option name="LAST_COMMIT_MESSAGE" value="建立的新项目 cloud-gateway-gateway9527&#10;测试了网关spring cloud gateway的使用&#10;测试了反向代理  负载均衡  路由中的断言的使用&#10;自定义全局过滤器的使用（自带的过滤器在yml文件中配置即可）" />
+    <MESSAGE value="建立的新项目 cloud-config-center-3344/ cloud-config-client-3355&#10;&#10;测试了spring cloud config 的使用&#10;配置中心3355  配置客户端3344" />
+    <option name="LAST_COMMIT_MESSAGE" value="建立的新项目 cloud-config-center-3344/ cloud-config-client-3355&#10;&#10;测试了spring cloud config 的使用&#10;配置中心3355  配置客户端3344" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="379" key="#Notifications" timestamp="1596864038382">
@@ -342,10 +352,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="748" y="645" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596866539038" />
-    <state x="717" y="311" key="CommitChangelistDialog2" timestamp="1597058437998">
+    <state x="717" y="311" key="CommitChangelistDialog2" timestamp="1597062470927">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="717" y="311" key="CommitChangelistDialog2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597058437998" />
+    <state x="717" y="311" key="CommitChangelistDialog2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062470927" />
     <state x="980" y="375" key="FileChooserDialogImpl" timestamp="1596448181141">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -359,59 +369,59 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1143" y="611" width="273" height="291" key="Github.ShareDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448019797" />
-    <state width="2159" height="390" key="GridCell.Tab.0.bottom" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.0.bottom" timestamp="1597213696067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696067" />
     <state width="1877" height="451" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="390" key="GridCell.Tab.0.center" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.0.center" timestamp="1597213696067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696067" />
     <state width="1877" height="451" key="GridCell.Tab.0.center/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="390" key="GridCell.Tab.0.left" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.0.left" timestamp="1597213696066">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696066" />
     <state width="1877" height="451" key="GridCell.Tab.0.left/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="390" key="GridCell.Tab.0.right" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.0.right" timestamp="1597213696067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696067" />
     <state width="1877" height="451" key="GridCell.Tab.0.right/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="390" key="GridCell.Tab.1.bottom" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.1.bottom" timestamp="1597213696067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696067" />
     <state width="1877" height="451" key="GridCell.Tab.1.bottom/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="390" key="GridCell.Tab.1.center" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.1.center" timestamp="1597213696067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696067" />
     <state width="1877" height="451" key="GridCell.Tab.1.center/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="390" key="GridCell.Tab.1.left" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.1.left" timestamp="1597213696067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696067" />
     <state width="1877" height="451" key="GridCell.Tab.1.left/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
-    <state width="2159" height="390" key="GridCell.Tab.1.right" timestamp="1597062374838">
+    <state width="2159" height="163" key="GridCell.Tab.1.right" timestamp="1597213696067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2159" height="390" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062374838" />
+    <state width="2159" height="163" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597213696067" />
     <state width="1877" height="451" key="GridCell.Tab.1.right/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596289167546" />
     <state x="781" y="362" key="SettingsEditor" timestamp="1596448041128">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="362" key="SettingsEditor/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596448041128" />
     <state x="3146" y="632" key="SettingsEditor/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596358159305" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1597059063175">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1597062477828">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597059063175" />
-    <state x="960" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1597052974891">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597062477828" />
+    <state x="960" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1597211223950">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="960" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597052974891" />
+    <state x="960" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597211223950" />
     <state x="3280" y="768" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.360.1920.1080@2560.360.1920.1080" timestamp="1596357696411" />
     <state x="1072" y="637" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596633359377">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -421,10 +431,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="941" y="511" key="git4idea.merge.GitPullDialog/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1596861908127" />
-    <state x="654" y="415" key="new project wizard" timestamp="1597061005278">
+    <state x="654" y="415" key="new project wizard" timestamp="1597211519545">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="654" y="415" key="new project wizard/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597061005278" />
+    <state x="654" y="415" key="new project wizard/0.0.2560.1440/2560.360.1920.1080@0.0.2560.1440" timestamp="1597211519545" />
     <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1597062252216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
