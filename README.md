@@ -70,3 +70,15 @@ springcloud实例练习项目
 ### **项目名**：cloud-config-client-3355
 
 1.cmd中发送请求  ``` curl -X POST "http://localhost:3355/actuator/refresh"中  ``` -x 必须大写 -X
+
+
+### **项目名**：cloud-stream-rabbitmq-provider8801
+
+1.默认情况下，guest用户被禁止通过远程连接到RabbitMQ，它只能用localhost连接。你自己创建的其它的用户不会受限于这一条。
+
+方法1：这个配置是通过配置文件中的loopback_users来设置的。 我配置的是阿里云的docker上面的rabbit mq 通过修改/etc/rabbitmq/rabbitmq.conf中的loopback_users= none 来让
+guest用户远程连接
+方法2：
+docker run -d --restart=always --name myrabbitmqadmin -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin -p 15672:15672 -p 5672:5672 181d2227d92f
+
+但这都没解决问题。。。。。  暂定。。。。。
